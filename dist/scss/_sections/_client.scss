@@ -1,0 +1,43 @@
+@import '../_variables/_colors';
+@import '../_combination/_center';
+@import '../_mixin/_font';
+/*
+Start client
+###########*/
+
+.client{
+    background: url(../images/bg2.jpg) no-repeat bottom center;
+}
+.client__title,
+.problems__title{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    @include font(normal, 2.5em, 'Roboto');
+    color: $color2;
+    padding-top: 70px;
+  }
+  .client__title span{
+    color: $color6;
+    font-weight: bold;
+  }
+  .client__content{
+    @extend %widthCenter3;
+  }
+  .client__content div{
+    display: inline-block;
+    padding-bottom: 200px;
+    margin: 0 107px 0 0;
+  }
+  .client__content div:last-child{
+    margin: 0;
+  }
+  .client__content div img{
+    @extend %widthCenter4;
+  }
+  .client__content div p{
+    text-align: center;
+    color: $color6;
+    @include font(normal, 1em, 'Roboto');
+    padding-top: 20px;
+  }

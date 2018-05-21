@@ -1,0 +1,71 @@
+@import '../_variables/_colors';
+@import '../_combination/_center';
+
+/*
+Start service
+#############*/
+.service{
+    background-color: #042947;
+    min-height: 120px;
+  }
+  .service__content{
+    @extend %widthCenter9;
+  }
+  .service__content li{
+    display: inline-block;
+    background: url(../images/csssprite.png) no-repeat 194px -489px;
+  }
+  .service__content li:last-child{
+    background: none;
+  }
+  .service__market,
+  .service__projects,
+  .service__individual,
+  .service__work,
+  .service__client{
+    background: url(../images/csssprite.png) no-repeat 193px -491px !important;
+    display: inline-block;
+  }
+  .service__client{
+    background: none !important;
+  }
+  .service__content div div{
+    color: $color10;
+    font-size: 0.875em;
+    display: block;
+    padding: 16px 0 0 0;
+    width: 123px;
+    float: left;
+  }
+  .service__market{
+    width: 240px;
+  }
+  .service__market:before,
+  .service__projects:before,
+  .service__individual:before,
+  .service__work:before,
+  .service__client:before{
+    background:  url(../images/csssprite.png) 0 -96px no-repeat;
+    display: block;
+    float: left;
+    content: "";
+    width: 95px;
+    height: 75px;
+    margin: 0 13px 0 0;
+  }
+  .service__projects:before{
+    background:  url(../images/csssprite.png) 0 -168px no-repeat;
+  }
+  .service__individual:before{
+    background:  url(../images/csssprite.png) -4px -248px no-repeat;
+  }
+  .service__work:before{
+    background:  url(../images/csssprite.png) 0 -320px no-repeat;
+  }
+  .service__client:before{
+    background:  url(../images/csssprite.png) 0 -397px no-repeat;
+  }
+  .service__individual{
+    background: url(../images/csssprite.png) no-repeat 210px -489px !important;
+    width: 250px;
+  }

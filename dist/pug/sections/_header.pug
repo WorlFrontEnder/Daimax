@@ -1,0 +1,47 @@
+header(class="header clearfix")
+   div(class="header__in")
+    a(href="#" class="header__logo")
+     img(src="images/logo.png" alt="")
+
+    ul(class="header__nav")
+     li
+      a( href="#")= menu.tarif
+     li
+      a( href="#")= menu.advantages
+     li
+      a( href="#")= menu.about
+     li
+      a( href="#")= menu.portfolio
+     li
+      a( href="#")= menu.contact
+    
+    div(class="header__info")
+     a( href="tel:+78314134338" class="header__info-phone")
+      span +7 831 
+      span 413 43 38
+     p Нижний Новгород <br> ул.Бориса Панина, д.7, корп.5
+    
+
+    div(class="header__title") Полноценная  <br> автоматизация <br> отдела продаж <br> от 40 000 рублей
+     span Ни один клиент больше <br> не будет потерян
+    
+    div(class="header__form")
+     div(class="header__form-in")
+      div(class="header__form-title") Пройдите небольшой <br> тест и найдите точки <br> роста Вашего бизнеса
+       p(class="header__form-minute") *Это займёт у Вас <b>не более 5-ти минут</b>
+
+      form(action="mail.php" method="post" class="header__form-submit")
+       div(class="wrrp-input-name")
+        input(type="text" placeholder="Ваше имя")
+            
+       div(class="wrrp-input-name")
+        input(type="text" placeholder="Адрес e-mail")
+            
+
+       div(class="wrrp-input-checkbox")
+        input(id="checkbox-input-1" type="checkbox" value="myValue 1" checked)
+        label(for="checkbox-input-1" class="input-helper input-helper--checkbox") Настоящим подтверждаю свое Согласие на <br> обработку персональных данных
+             
+
+       a(href="#" class="submti-btn")
+        span Пройти тест

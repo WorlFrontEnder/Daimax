@@ -1,0 +1,487 @@
+/*
+Start responsive
+###############*/
+@media (max-width: 1230px) {
+    .tariffs__content{
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .tariffs__content > div{
+     margin: 8px 10px 0 0px;
+    }
+    .tariffs__content > div:last-child{
+     position: relative;
+     top: -115px;
+    }
+    .what__img, 
+    .what__img2, 
+    .what__img3, 
+    .what__img4, 
+    .what__img5, 
+    .what__img6, 
+    .what__img7{
+     display: none;
+    }
+    
+   }
+   
+   @media (max-width: 1220px) {
+     .header__in{
+       padding: 30px 10px 0;
+     }
+     footer .header__in{
+      padding: 30px 0 0;
+      max-width: 1100px;
+     }
+     .header__nav{
+       margin: 30px 0 0 50px;
+     }
+     .amenities{
+       margin: 0 auto ;
+     }
+     .what__audit_modif7{
+       top: 0;
+     }
+     .amenities{
+       max-width: 1000px;
+     }
+     .service__content li,
+     .service__individual{
+       background: none !important;
+     }
+     .service__content{
+       max-width: 735px;
+       margin: 11px auto;
+     }
+     .what__content{
+       max-width: 530px;
+       background: none;
+       overflow: hidden;
+     }
+     .what__audit:after,
+     .what__sale:after{
+       display: none;
+     }
+     .what__sale{
+       margin-top: 0px;
+     }
+     .what__white{
+       max-width: 535px;
+     }
+     .what__white_modif{
+       width: 530px !important
+     }
+     .what{
+       min-height: 2374px;
+     }
+     .question__right_modif{
+       float: none;
+       margin: 0 auto;
+     }
+     .question__title{
+       font-size: 2em;
+     }
+     .question__in{
+       margin: 0 0 0 0;
+     }
+     .question{
+       padding: 0 13px;
+     }
+    }
+   
+   
+   @media (max-width: 1090px) {
+     .header__nav{
+       margin: 30px 0 0 65px;
+     }
+     .problems__title{
+       font-size: 1.8em;
+     }
+      footer .header__in{
+       max-width: 730px;
+       margin-bottom: 23px;
+     }
+     footer .header__logo{
+       float: none;
+       margin: 0 auto;
+       width: 226px;
+       display: block;
+     }
+     footer .header__nav{
+       float: none;
+       margin: 30px auto;
+       max-width: 600px;
+       width: 100%;
+     }
+     footer .header__info{
+      float: none;
+      margin: 0 auto;
+      width: 210px;
+     }
+     footer{
+       padding-bottom: 10px;
+     }
+     .amenities{
+       max-width: 800px;
+     }
+     .amenities__content .amenities__text{
+       margin: 0 auto;
+       padding: 0 10px;
+       float: none;
+     }
+   }
+   
+   
+   @media (max-width: 1035px) {
+     .header__nav{
+       margin: 30px 0 0 50px;
+     }
+   }
+   
+   
+   @media (max-width: 1020px) {
+     .header__nav{
+       margin: 30px 0 0 20px;
+     }
+     .header__title{
+       font-size: 3em;
+     }
+     .header__nav li{
+       margin: 0 10px 0 0;
+     }
+     .client__title{
+       font-size: 2em;
+     }
+     .client__content div{
+       margin: 0 24px 0 0;
+       padding-bottom: 148px;
+     }
+     .client__content{
+       max-width: 780px;
+     }
+     .client{
+       -webkit-background-size: 80%;
+       background-size: 80%;
+     }
+     footer .header__nav{
+       max-width: 545px;
+     }
+   }
+   
+   @media (max-width: 950px) {
+     .header__in{
+       max-width: 730px;
+       margin-bottom: 23px;
+     }
+     .header__title{
+       margin: 130px auto 0;
+       float: none;
+       clear: none;
+       width: 445px;
+     }
+     .header__form{
+       float: none;
+       margin: 35px auto 0;
+       padding: 2px;
+     }
+     .problems__content{
+       max-width: 600px;
+     }
+     .problems__content > div{
+       margin: 0 103px 0 0;
+     }
+   }
+   
+   
+   @media (max-width: 810px) {
+    .tariffs__content{
+     max-width: 380px;
+    }
+    .tariffs__content > div:last-child{
+     position: relative;
+     top: 0;
+    }
+    .tariffs{
+     background: none;
+    }
+    .price-work__basic{
+     max-width: 380px;
+    }
+    .price-work__basic-title{
+     font-size: 1.2em;
+    }
+    .price-work__content div div{
+      padding: 0;
+      width: 295px;
+    }
+    .price-work__content div:before{
+     width: 45px;
+    }
+    .price-work__content{
+     padding: 0 0 0 23px;
+    }
+   }
+   
+   @media (max-width: 800px) {
+    .client__title, 
+    .problems__title{
+     font-size: 1.5em;
+    }
+    .client__content{
+     max-width: 510px;
+    }
+    .client__content div{
+     padding-bottom: 35px;
+    }
+    .client{
+     padding-bottom: 50px;
+    }
+    .amenities__title{
+     font-size: 2em;
+    }
+    .amenities__content .amenities__text p,
+    .amenities__text div{
+     text-align: justify;
+     display: block;
+    }
+    .service__market,
+   .service__projects,
+   .service__individual,
+   .service__work,
+   .service__client{
+     background:none !important;
+    }
+   }
+   
+   @media (max-width: 750px) {
+    .header__in {
+      max-width: 535px;
+    } 
+    .header__logo{
+     margin: 0 auto;
+     float: none;
+     width: 200px;
+     display: block;
+    }
+    .header__info{
+     float: none;
+     margin: 85px auto 0;
+     width: 210px;
+    }
+    .header__title{
+     margin: 30px auto 0;
+    }
+    .header{
+     padding-bottom: 30px;
+    }
+    .service__content{
+       max-width: 490px;
+     }
+   }
+   
+   @media (max-width: 630px) {
+    .problems__content {
+      max-width: 196px;
+    }
+    .problems__content div:after,
+    .problems__content div:nth-child(2):after{
+      top: 246px;
+      left: 86px;
+      -webkit-transform: rotate(91deg);
+       -moz-transform: rotate(91deg);
+        -o-transform: rotate(91deg);
+         -ms-transform: rotate(91deg);
+       transform: rotate(91deg);
+    }
+    .problems__content div:nth-child(2):after{
+      top: 275px;
+    }
+    .problems__content div{
+     margin: 0 0 50px 0;
+    }
+    .what__white_modif{
+      width: 300px !important;
+      margin: 0 auto;
+      float: none;
+    }
+    .question__right_modif{
+      clear: both;
+    }
+    .what__sale,
+    .what__audit{
+     float: none;
+     margin: 0 auto;
+     width: 300px;
+    }
+    .what__white{
+     padding-bottom: 293px;
+    }
+    .what {
+      min-height: 3018px;
+      overflow: hidden;
+    }
+    .what__audit p, 
+    .what__sale p{
+     padding: 0 10px;
+    }
+    .question__right_modif .question__title{
+     font-size: 1.3em;
+    }
+    .question .header__form-submit input[type="text"]{
+     width: 80% !important;
+     margin: 0 auto 20px;
+     float: none;
+    }
+    .question__right{
+     float: none;
+     margin: 100px auto 0;
+     background: url(../images/csssprite.png) no-repeat 169px -692px;
+    }
+    .question__title{
+     font-size: 1.5em;
+    }
+    .question__right .input-helper--checkbox{
+     margin: 40px 0 0 72px;
+    }
+    .what__in .question__right{
+      background: none;
+      padding-top: 0;
+      margin: 0 auto;
+    }
+    .what__audit_modif7{
+     top: 20px;
+    }
+    .what__audit{
+     padding-top: 0;
+     margin-top: 0px;
+    }
+    .header__title{
+     font-size: 1.8em;
+     text-align: center;
+     width: 280px;
+    }
+    .amenities{
+     margin-top: 30px;
+    }
+   }
+   
+   
+   
+   @media (max-width: 560px) {
+    .what__in .question__right{
+      background: none;
+      padding-top: 23px;
+    }
+    .question__right_modif .question__title{
+     padding-top: 0;
+    }
+   
+    .header__in {
+      max-width: 300px;
+    } 
+    .header__nav li{
+     margin: 0 8px 7px 0;
+    }
+    .header__title{
+     font-size: 1.8em;
+     text-align: center;
+     width: 280px;
+    }
+    .header__nav{
+     margin: 30px 0 0 0;
+    }
+    .header__info p{
+     text-align: center;
+    }
+    .what__title{
+     font-size: 2em;
+     padding-bottom: 20px;
+    }
+    .what__audit_modif{
+     margin-top: 10px;
+    }
+    .header__form-title:before{
+     display: none;
+    }
+    .header__form-submit input[type="text"]{
+     width: 80%;
+    }
+    .header__form-title{
+     text-align: center;
+    }
+    .input-helper--checkbox{
+     margin: 11px 0 0 45px;
+    }
+    .header__form-in{
+     max-width: 265px;
+    }
+    .header__form-title{
+     width: 260px;
+    }
+    .service__content{
+       max-width: 250px;
+     }
+    .client__content {
+      max-width: 300px;
+    }
+    .client__content div{
+     margin: 0 auto;
+     width: 300px;
+    }
+    .question__right_modif .input-helper--checkbox{
+     width: 220px;
+    }
+    .tariffs__content,
+    .tariffs__content > div {
+       max-width: 300px;
+    }
+    .tariffs__contents{
+     padding: 0 0 30px 0;
+    }
+    .tariffs__contents div div{
+     font-size: 1em;
+    }
+    .price-work__basic{
+     max-width: 300px;
+    }
+    .price-work__content{
+     padding: 0;
+    }
+    .price-work__content div div{
+     width: 240px;
+    }
+    .price-work__content div{
+     margin-bottom: 10px;
+    }
+    .price-work__price{
+     font-size: 3em;
+    }
+    .tariffs__contents{
+     padding-bottom: 20px;
+    }
+    .amenities__title {
+       font-size: 1.5em;
+    }
+   }
+   
+   @media (max-width: 400px) {
+    .question__right .input-helper--checkbox{
+      margin: 40px 0 0 50px;
+    }
+    .question__right{
+      background: url(../images/csssprite.png) no-repeat 120px -689px;
+    }
+   }
+   
+   
+   @media (max-width: 360px) {
+    .question__right .input-helper--checkbox{
+      margin: 40px 0 0 30px;
+    }
+    .question__right{
+      background: url(../images/csssprite.png) no-repeat 120px -689px;
+    }
+    .amenities{
+     max-width: 300px;
+    }
+}

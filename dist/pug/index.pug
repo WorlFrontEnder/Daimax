@@ -1,0 +1,26 @@
+- var menu = {tarif:"Тарифы", advantages:"Преимущества",about:"О нас",portfolio:"Портфолио",contact:"Контакты"}
+
+doctype html
+html(lang="ru")
+ head
+  block meta
+   meta(charset="utf-8")
+   meta(name="viewport" content="width=device-width, initial-scale=1.0")
+   meta(http-equiv="X-UA-Compatible" content="IE=edge")
+   meta(name="description" content=" ")
+   meta(name="keywords" content=" ")
+   link(href="css/style.min.css", rel="stylesheet")
+   link(href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900", rel="stylesheet")
+   title Daimax
+
+ body
+  include sections/_header
+  include sections/_service
+  include sections/_client
+  include sections/_problems
+  include sections/_what
+  include sections/_price-work
+  include sections/_tariffs
+  include sections/_amenities
+  include sections/_question        
+  include sections/_footer

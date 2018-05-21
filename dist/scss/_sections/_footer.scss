@@ -1,0 +1,16 @@
+@import '../_variables/_colors';
+/*
+Start footer
+##########*/
+footer{
+padding-bottom: 50px;
+overflow: hidden;
+}
+footer .header__nav li a{
+color: $color7;
+}
+footer .header__info-phone span:first-child,
+footer .header__info-phone span:last-child,
+footer .header__info p{
+color: $color8;
+}

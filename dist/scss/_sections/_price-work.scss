@@ -1,0 +1,100 @@
+@import '../_variables/_colors';
+@import '../_combination/_center';
+@import '../_mixin/_font';
+@import '../_mixin/_transform';
+@import '../_mixin/_radius';
+
+/*
+Start price-work
+################*/
+.price-work{
+    @extend %widthCenter7;
+  }
+  .price-work__title{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color2;
+    @include font(300, 2.5em, 'Roboto');
+    padding-top: 65px;
+  }
+  .price-work__basic{
+    border:1px dashed #000000;
+    max-width: 690px;
+    width: 100%;
+    margin: 50px auto 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .price-work__basic:after{
+    display: block;
+    content: "";
+    float: left;
+    border-top: 49px solid transparent;
+    border-right: 37px solid #e41515;
+    border-bottom: 35px solid transparent;
+    position: absolute;
+    top: -25px;
+    left: 96%;
+    @include transform(138deg);
+  }
+  .price-work__basic-title{
+    text-transform: uppercase;
+    color: $color2;
+    @include font(bold, 1.56em, 'Roboto');
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .price-work__basic-title span{
+    text-transform: none;
+  }
+  .price-work__content{
+    max-width: 530px;
+    width: 100%;
+    margin: 40px auto 0;
+  }
+  .price-work__content > div{
+    overflow: hidden;
+  }
+  .price-work__content > div:before{
+    display: block;
+    float: left;
+    content: "";
+    background: url(../images/csssprite.png) no-repeat 0 -767px;
+    width: 50px;
+    height: 50px;
+  }
+  .price-work__content div div{
+    display: block;
+    float: left;
+    font-weight: 300;
+    font-size: 1em;
+  }
+  .price-work__content div:nth-child(4) div{
+    position: relative;
+    top: 5px;
+  }
+  .price-work__price{
+    text-align: center;
+    color: $color7;
+    @include font(700, 3.25em, 'Roboto');
+    display: block;
+    padding: 11px 0 20px;
+  }
+  .price-work__btn{
+    margin: 0 auto;
+    width: 140px;
+    height: 40px;
+    background-color: #8d0710;
+    @include borderRadius(5px);
+    display: block;
+    margin-bottom: 50px;
+  }
+  .price-work__btn span{
+    display: block;
+    text-align: center;
+    color: $color10;
+    @include font(300, 1em, 'Roboto');
+    padding: 10px 0 10px 0;
+  }

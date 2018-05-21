@@ -1,0 +1,72 @@
+@import '../_variables/_colors';
+@import '../_combination/_center';
+@import '../_mixin/_font';
+/*#############
+Start amenities
+##############*/
+.amenities{
+    @extend %widthCenter;
+    border:1px dashed #000;
+    position: relative;
+    overflow: hidden;
+  }
+  .amenities:before{
+    display: block;
+    content: "";
+    float: left;
+    border-top: 49px solid transparent;
+    border-right: 37px solid #e41515;
+    border-bottom: 35px solid transparent;
+    position: absolute;
+    top: -25px;
+    left: 98%;
+    -webkit-transform: rotate(138deg);
+    -moz-transform: rotate(138deg);
+    -o-transform: rotate(138deg);
+    -ms-transform: rotate(138deg);
+    transform: rotate(138deg);
+  }
+  .amenities__content{
+    @extend %widthCenter2;
+  }
+  .amenities__content > div{
+    overflow: hidden;
+    border-bottom: 1px solid #cccccc;
+    padding: 20px 0 21px 0;
+  }
+  .amenities__content > div:last-child{
+    border: none;
+  }
+  .amenities__content .amenities__text{
+    float: left;
+    max-width: 770px;
+    width: 100%;
+    margin: 0 0 0 40px;
+  }
+  .amenities__content .amenities__text p{
+    @include font(300, 1.2em, 'Roboto');
+    color: $color5;
+    padding-bottom: 10px;
+  }
+  .amenities__title{
+    display: block;
+    text-align: center;
+    color: $color2;
+    text-transform: uppercase;
+    padding: 60px 0 20px;
+    @include font(300, 2.43em, 'Roboto');
+  }
+  .amenities__text div{
+    color: $color3;
+    @include font(300, 0.9em, 'Roboto');
+  }
+  .amenities__price{
+    display: block;
+    float: right;
+    font-weight: bold;
+    color: $color4;
+    font-size: 1.56em;
+    @include font(normal, 1.56em, 'Roboto');
+    padding-top: 25px;
+    margin: 0 40px 0 0;
+  }
